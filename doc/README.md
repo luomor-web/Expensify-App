@@ -6,4 +6,7 @@ sudo docker run -ti --privileged --volume="$(pwd)":/app -v $(pwd)/root:/root --r
 npm install
 # npm run web
 npm run build
+
+source bin/env.sh
+npm install
 ```
