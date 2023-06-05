@@ -8,5 +8,9 @@ npm install
 npm run build
 
 source bin/env.sh
+brew install nvm
+nvm install
+brew install watchman
+
 npm install
 ```

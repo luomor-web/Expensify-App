@@ -84,3 +84,13 @@ npm ERR! notsup Actual:   {"npm":"8.19.4","node":"v16.20.0"}
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     ~/.npm/_logs/2023-06-05T10_47_24_903Z-debug-0.log
+
+nvm install
+Found '/Users/peterzhang/dev/github/docker-wordpress/App/.nvmrc' with version <16.15.1>
+Downloading and installing node v16.15.1...
+Downloading https://nodejs.org/dist/v16.15.1/node-v16.15.1-darwin-x64.tar.xz...
+######################################################################################### 100.0%
+Computing checksum with shasum -a 256
+Checksums matched!
+Now using node v16.15.1 (npm v8.11.0)
+Creating default alias: default -> 16.15.1 (-> v16.15.1)
