@@ -1,0 +1,49 @@
+brew update
+==> Downloading https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/bottles-portable-ruby/portable-ruby-2.6.10_1.el_capitan.bottle.tar.gz
+######################################################################################### 100.0%
+==> Pouring portable-ruby-2.6.10_1.el_capitan.bottle.tar.gz
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+##                                                                                          2.4%curl: (28) Operation too slow. Less than 100 bytes/sec transferred the last 5 seconds
+
+Warning: formula.jws.json: update failed, falling back to cached version.
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+######################################################################################### 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+curl: (28) Operation too slow. Less than 100 bytes/sec transferred the last 5 seconds          
+
+Error: Failure while executing; `/usr/bin/env /usr/local/Homebrew/Library/Homebrew/shims/shared/curl --disable --cookie /dev/null --globoff --user-agent Homebrew/4.0.20\ \(Macintosh\;\ Intel\ Mac\ OS\ X\ 12.6.6\)\ curl/7.87.0 --header Accept-Language:\ en --fail --progress-bar --location --remote-time --output /Users/peterzhang/Library/Caches/Homebrew/api/cask.jws.json --compressed --speed-limit 100 --speed-time 5 --progress-bar https://formulae.brew.sh/api/cask.jws.json` exited with 28. Here's the output:
+curl: (28) Operation too slow. Less than 100 bytes/sec transferred the last 5 seconds 
+
+brew update
+Already up-to-date.
+
+brew search node
+==> Formulae
+libbitcoin-node    node ✔             node@10            node@18            nodeenv
+linode-cli         node-build         node@14 ✔          node_exporter      nodenv
+llnode             node-sass          node@16            nodebrew           ode
+
+==> Casks
+capslocknodelay                 nodebox                         nodeclipse
+
+If you meant "node" specifically:
+It was migrated from homebrew/cask to homebrew/core.
+
+brew info node
+==> node: stable 20.2.0 (bottled), HEAD
+Platform built on V8 to build network applications
+https://nodejs.org/
+/usr/local/Cellar/node/19.6.0 (2,154 files, 55.6MB) *
+  Poured from bottle on 2023-02-16 at 12:11:00
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/node.rb
+License: MIT
+==> Dependencies
+Build: pkg-config ✔, python@3.11 ✘
+Required: brotli ✔, c-ares ✘, icu4c ✔, libnghttp2 ✘, libuv ✘, openssl@1.1 ✘
+==> Options
+--HEAD
+	Install HEAD version
+==> Analytics
+install: 200,999 (30 days), 18,323 (90 days), 4,029,797 (365 days)
+install-on-request: 120,068 (30 days), 16,682 (90 days), 3,561,808 (365 days)
+build-error: 438 (30 days)
