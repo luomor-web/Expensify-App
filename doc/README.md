@@ -16,6 +16,12 @@ npm install
 npm install --registry=https://registry.npmmirror.com
 npm install -g cnpm --registry=https://registry.npmmirror.com
 
+npm config set proxy http://127.0.0.1:8002
+npm config set https-proxy http://127.0.0.1:8002
+npm config list
+npm config delete proxy
+npm config delete https-proxy
+
 npm config set registry https://registry.npmmirror.com
 npm config set registry https://registry.npmjs.org
 npm config get registry
