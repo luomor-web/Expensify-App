@@ -321,14 +321,19 @@ npm WARN skipping integrity check for git dependency ssh://git@github.com/Expens
 (##################) ⠴ reify:react-web-config: timing reifyNode:node_modules/date-fns Completed
 npm ERR! code EACCES
 npm ERR! syscall open
-npm ERR! path /Users/peterzhang/.npm/_cacache/index-v5/9b/3c/88267da8b8448a61327025ccb1ca2f70cd79c4346419a40026f6dd5ed57f
+npm ERR! path ~/.npm/_cacache/index-v5/9b/3c/88267da8b8448a61327025ccb1ca2f70cd79c4346419a40026f6dd5ed57f
 npm ERR! errno EACCES
 npm ERR! 
 npm ERR! Your cache folder contains root-owned files, due to a bug in
 npm ERR! previous versions of npm which has since been addressed.
 npm ERR! 
 npm ERR! To permanently fix this problem, please run:
-npm ERR!   sudo chown -R 502:20 "/Users/peterzhang/.npm"
+npm ERR!   sudo chown -R 502:20 "~/.npm"
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/peterzhang/.npm/_logs/2023-06-06T09_37_29_991Z-debug-0.log
+npm ERR!     ~/.npm/_logs/2023-06-06T09_37_29_991Z-debug-0.log
+
+npm ERR! Cannot read properties of null (reading 'pickAlgorithm')
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     ~/.npm/_logs/2023-06-06T10_05_25_570Z-debug-0.log
