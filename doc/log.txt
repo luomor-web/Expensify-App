@@ -227,3 +227,7 @@ found 0 vulnerabilities
 
 which hpts
 ~/.nvm/versions/node/v16.15.1/bin/hpts
+
+hpts -s localhost:1080 -p 8002
+SOCKS: localhost:1080
+http-proxy listening: 127.0.0.1:8002
