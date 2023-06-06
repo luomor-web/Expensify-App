@@ -94,3 +94,27 @@ Computing checksum with shasum -a 256
 Checksums matched!
 Now using node v16.15.1 (npm v8.11.0)
 Creating default alias: default -> 16.15.1 (-> v16.15.1)
+
+nvm ls
+->     v16.15.1
+         system
+default -> 16.15.1 (-> v16.15.1)
+iojs -> N/A (default)
+unstable -> N/A (default)
+node -> stable (-> v16.15.1) (default)
+stable -> 16.15 (-> v16.15.1) (default)
+lts/* -> lts/hydrogen (-> N/A)
+lts/argon -> v4.9.1 (-> N/A)
+lts/boron -> v6.17.1 (-> N/A)
+lts/carbon -> v8.17.0 (-> N/A)
+lts/dubnium -> v10.24.1 (-> N/A)
+lts/erbium -> v12.22.12 (-> N/A)
+lts/fermium -> v14.21.3 (-> N/A)
+lts/gallium -> v16.20.0 (-> N/A)
+lts/hydrogen -> v18.16.0 (-> N/A)
+
+npm config get registry
+https://registry.npmjs.org/
+
+cat ~/.npmrc
+//registry.npmjs.org/:_authToken=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
