@@ -337,3 +337,6 @@ npm ERR! Cannot read properties of null (reading 'pickAlgorithm')
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     ~/.npm/_logs/2023-06-06T10_05_25_570Z-debug-0.log
+
+npm cache clear --force
+npm WARN using --force Recommended protections disabled.
