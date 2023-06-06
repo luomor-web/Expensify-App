@@ -118,3 +118,98 @@ https://registry.npmjs.org/
 
 cat ~/.npmrc
 //registry.npmjs.org/:_authToken=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
+
+npm install --registry=http://registry.npmmirror.com 
+ 
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: react-inspector@5.1.1
+npm WARN Found: react@18.2.0
+npm WARN node_modules/react
+npm WARN   react@"18.2.0" from the root project
+npm WARN   156 more (@callstack/reassure-measure, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer react@"^16.8.4 || ^17.0.0" from react-inspector@5.1.1
+npm WARN node_modules/@storybook/addon-actions/node_modules/react-inspector
+npm WARN   react-inspector@"^5.1.0" from @storybook/addon-actions@6.5.10
+npm WARN   node_modules/@storybook/addon-actions
+npm WARN 
+npm WARN Conflicting peer dependency: react@17.0.2
+npm WARN node_modules/react
+npm WARN   peer react@"^16.8.4 || ^17.0.0" from react-inspector@5.1.1
+npm WARN   node_modules/@storybook/addon-actions/node_modules/react-inspector
+npm WARN     react-inspector@"^5.1.0" from @storybook/addon-actions@6.5.10
+npm WARN     node_modules/@storybook/addon-actions
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: @mdx-js/react@1.6.22
+npm WARN Found: react@18.2.0
+npm WARN node_modules/react
+npm WARN   react@"18.2.0" from the root project
+npm WARN   156 more (@callstack/reassure-measure, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer react@"^16.13.1 || ^17.0.0" from @mdx-js/react@1.6.22
+npm WARN node_modules/@storybook/addon-docs/node_modules/@mdx-js/react
+npm WARN   @mdx-js/react@"^1.6.22" from @storybook/addon-docs@6.5.10
+npm WARN   node_modules/@storybook/addon-docs
+npm WARN 
+npm WARN Conflicting peer dependency: react@17.0.2
+npm WARN node_modules/react
+npm WARN   peer react@"^16.13.1 || ^17.0.0" from @mdx-js/react@1.6.22
+npm WARN   node_modules/@storybook/addon-docs/node_modules/@mdx-js/react
+npm WARN     @mdx-js/react@"^1.6.22" from @storybook/addon-docs@6.5.10
+npm WARN     node_modules/@storybook/addon-docs
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: react-element-to-jsx-string@14.3.4
+npm WARN Found: react@18.2.0
+npm WARN node_modules/react
+npm WARN   react@"18.2.0" from the root project
+npm WARN   156 more (@callstack/reassure-measure, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer react@"^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1" from react-element-to-jsx-string@14.3.4
+npm WARN node_modules/@storybook/react/node_modules/react-element-to-jsx-string
+npm WARN   react-element-to-jsx-string@"^14.3.4" from @storybook/react@6.5.10
+npm WARN   node_modules/@storybook/react
+npm WARN 
+npm WARN Conflicting peer dependency: react@17.0.2
+npm WARN node_modules/react
+npm WARN   peer react@"^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1" from react-element-to-jsx-string@14.3.4
+npm WARN   node_modules/@storybook/react/node_modules/react-element-to-jsx-string
+npm WARN     react-element-to-jsx-string@"^14.3.4" from @storybook/react@6.5.10
+npm WARN     node_modules/@storybook/react
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: react-element-to-jsx-string@14.3.4
+npm WARN Found: react-dom@18.1.0
+npm WARN node_modules/react-dom
+npm WARN   react-dom@"18.1.0" from the root project
+npm WARN   103 more (@expensify/react-native-web, @storybook/addon-a11y, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer react-dom@"^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1" from react-element-to-jsx-string@14.3.4
+npm WARN node_modules/@storybook/react/node_modules/react-element-to-jsx-string
+npm WARN   react-element-to-jsx-string@"^14.3.4" from @storybook/react@6.5.10
+npm WARN   node_modules/@storybook/react
+npm WARN 
+npm WARN Conflicting peer dependency: react-dom@17.0.2
+npm WARN node_modules/react-dom
+npm WARN   peer react-dom@"^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1" from react-element-to-jsx-string@14.3.4
+npm WARN   node_modules/@storybook/react/node_modules/react-element-to-jsx-string
+npm WARN     react-element-to-jsx-string@"^14.3.4" from @storybook/react@6.5.10
+npm WARN     node_modules/@storybook/react
+npm WARN skipping integrity check for git dependency ssh://git@github.com/Expensify/simply-deferred.git 
+npm WARN skipping integrity check for git dependency ssh://git@github.com/Expensify/react-native-picker-select.git 
+npm WARN skipping integrity check for git dependency ssh://git@github.com/Expensify/react-native-image-size.git 
+npm WARN skipping integrity check for git dependency ssh://git@github.com/Expensify/react-native-google-places-autocomplete.git 
+npm WARN skipping integrity check for git dependency ssh://git@github.com/Expensify/expensify-common.git 
+npm WARN skipping integrity check for git dependency ssh://git@github.com/Expensify/react-native-image-manipulator.git 
+npm ERR! code ERR_SOCKET_TIMEOUT
+npm ERR! network Socket timeout
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/peterzhang/.npm/_logs/2023-06-06T03_34_01_371Z-debug-0.log
