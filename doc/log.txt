@@ -86,7 +86,7 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     ~/.npm/_logs/2023-06-05T10_47_24_903Z-debug-0.log
 
 nvm install
-Found '/Users/peterzhang/dev/github/docker-wordpress/App/.nvmrc' with version <16.15.1>
+Found '~/dev/github/docker-wordpress/App/.nvmrc' with version <16.15.1>
 Downloading and installing node v16.15.1...
 Downloading https://nodejs.org/dist/v16.15.1/node-v16.15.1-darwin-x64.tar.xz...
 ######################################################################################### 100.0%
@@ -212,4 +212,18 @@ npm ERR! network If you are behind a proxy, please make sure that the
 npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/peterzhang/.npm/_logs/2023-06-06T03_34_01_371Z-debug-0.log
+npm ERR!     ~/.npm/_logs/2023-06-06T03_34_01_371Z-debug-0.log
+
+npm install -g http-proxy-to-socks
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN deprecated socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+
+added 40 packages, and audited 41 packages in 14s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+which hpts
+~/.nvm/versions/node/v16.15.1/bin/hpts
