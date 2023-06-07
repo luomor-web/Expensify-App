@@ -202,7 +202,7 @@
     "prettier": "^2.8.8",
     "pusher-js-mock": "^0.3.3",
     "react-native-clean-project": "^4.0.0-alpha4.0",
-    
+    "react-native-flipper": "https://www.7otech.com/facebook-flipper-react-native-react-native-flipper-9cacc9b59402550eae866e0e81e5f0c2f8203e6b.tgz",
     "react-native-performance-flipper-reporter": "^2.0.0",
     "react-native-svg-transformer": "^1.0.0",
     "react-test-renderer": "18.1.0",
