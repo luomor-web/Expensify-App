@@ -40,6 +40,9 @@ yarn config delete https-proxy
 yarn config set registry https://registry.npmmirror.com
 yarn config set registry https://registry.npmjs.org/
 
+git config --global http.proxy http://127.0.0.1:8002
+git config --global --unset http.proxy
+
 npm install -g http-proxy-to-socks
 hpts -s localhost:1080 -p 8002
 ```
