@@ -31,6 +31,15 @@ npm config set registry https://registry.npmmirror.com
 npm config set registry https://registry.npmjs.org
 npm config get registry
 
+yarn config set proxy http://127.0.0.1:8002
+yarn config set https-proxy http://127.0.0.1:8002
+
+yarn config delete proxy  
+yarn config delete https-proxy
+
+yarn config set registry https://registry.npmmirror.com
+yarn config set registry https://registry.npmjs.org/
+
 npm install -g http-proxy-to-socks
 hpts -s localhost:1080 -p 8002
 ```
