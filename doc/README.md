@@ -22,6 +22,12 @@ npm install --registry=https://registry.npmmirror.com
 yarn install
 npm run build
 npm run desktop
+npm run web
+
+npm install && cd ios/ && pod install && cd ..
+npm run ios
+
+npm run android
 
 npm config set proxy http://127.0.0.1:8002
 npm config set https-proxy http://127.0.0.1:8002
