@@ -20,6 +20,8 @@ npm cache clear --force
 npm install --registry=https://registry.npmmirror.com
 
 yarn install
+npm run build
+npm run desktop
 
 npm config set proxy http://127.0.0.1:8002
 npm config set https-proxy http://127.0.0.1:8002
