@@ -617,3 +617,276 @@ up to date, audited 47 packages in 2s
 
 found 0 vulnerabilities
 ✨  Done in 1614.63s.
+
+npm run build
+
+> new.expensify@1.3.23-6 build
+> webpack --config config/webpack/webpack.common.js --env envFile=.env.production
+
+[BABEL] Note: The code generator has deoptimised the styling of /Users/peterzhang/dev/github/docker-wordpress/App/assets/images/home-background--desktop.svg as it exceeds the max of 500KB.
+[BABEL] Note: The code generator has deoptimised the styling of undefined as it exceeds the max of 500KB.
+(node:47281) [DEP_WEBPACK_COMPILATION_ASSETS] DeprecationWarning: Compilation.assets will be frozen in future, all modifications are deprecated.
+BREAKING CHANGE: No more changes should happen to Compilation.assets after sealing the Compilation.
+	Do changes to assets earlier, e. g. in Compilation.hooks.processAssets.
+	Make sure to select an appropriate stage from Compilation.PROCESS_ASSETS_STAGE_*.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+assets by path cmaps/*.bcmap 1.11 MiB 168 assets
+assets by path fonts/ 623 KiB
+  assets by path fonts/*.woff 327 KiB 8 assets
+  assets by path fonts/*.woff2 296 KiB 8 assets
+assets by info 23.9 MiB [immutable]
+  assets by path *.png 223 KiB 5 assets
+  assets by path *.js 23.7 MiB 4 assets
+assets by path css/*.css 8.95 KiB
+  asset css/AnnotationLayer.css 6.36 KiB [emitted] [from: node_modules/react-pdf/dist/esm/Page/AnnotationLayer.css] [copied]
+  + 2 assets
+assets by path .well-known/ 2.13 KiB
+  asset .well-known/apple-app-site-association 1.84 KiB [emitted] [from: .well-known/apple-app-site-association] [copied]
+  asset .well-known/assetlinks.json 303 bytes [emitted] [from: .well-known/assetlinks.json] [copied]
++ 6 assets
+Entrypoint main [big] 22.4 MiB (37.6 MiB) = runtime-a84c5563f78b32d5cc01.bundle.js 2.23 KiB vendors-703b07707fbd1948582d.bundle.js 17.5 MiB main-1f6d8f10775f294ae542.bundle.js 4.85 MiB 9 auxiliary assets
+orphan modules 8.3 MiB [orphan] 2041 modules
+runtime modules 5.19 KiB 13 modules
+cacheable modules 31.4 MiB (javascript) 223 KiB (asset)
+  modules by path ./node_modules/ 23.9 MiB
+    javascript modules 20.4 MiB 1546 modules
+    json modules 796 KiB 10 modules
+    asset modules 2.75 MiB 5 modules
+  modules by path ./src/ 6.44 MiB 357 modules
+  modules by path ./assets/ 847 KiB (javascript) 223 KiB (asset)
+    modules by path ./assets/images/ 4.34 KiB (javascript) 223 KiB (asset) 8 modules
+    json modules 631 KiB
+      ./assets/animations/Fireworks.json 490 KiB [built] [code generated]
+      ./assets/animations/ReviewingBankInfo.json 141 KiB [built] [code generated]
+    ./assets/emojis.js + 7 modules 212 KiB [built] [code generated]
+  + 10 modules
+
+WARNING in ./src/libs/actions/Device/getDeviceInfo/getBaseInfo.js 4:17-24
+Should not import the named export 'version' (imported as 'version') from default-exporting module (only default export is available soon)
+ @ ./src/libs/actions/Device/getDeviceInfo/index.js 4:0-40 22:41-52
+ @ ./src/libs/actions/Device/index.js 8:0-44 54:68-81
+ @ ./src/setup/index.js
+ @ ./index.js 9:0-45 13:0-18
+
+WARNING in ./node_modules/react-native-performance/lib/module/NativeRNPerformanceManager.js 2:15-38
+export 'TurboModuleRegistry' (imported as 'TurboModuleRegistry') was not found in 'react-native' (possible exports: AccessibilityInfo, ActivityIndicator, Alert, Animated, AppRegistry, AppState, Appearance, BackHandler, Button, CheckBox, Clipboard, DeviceEventEmitter, DeviceInfo, Dimensions, DrawerLayoutAndroid, Easing, FlatList, I18nManager, Image, ImageBackground, InputAccessoryView, InteractionManager, Keyboard, KeyboardAvoidingView, LayoutAnimation, Linking, LogBox, Modal, NativeEventEmitter, NativeModules, PanResponder, PermissionsAndroid, Picker, PixelRatio, Platform, Pressable, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, Settings, Share, StatusBar, StyleSheet, Switch, Systrace, TVEventHandler, Text, TextInput, ToastAndroid, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, UIManager, Vibration, View, VirtualizedList, YellowBox, findNodeHandle, processColor, render, unmountComponentAtNode, unstable_createElement, useColorScheme, useLocaleContext, useWindowDimensions)
+ @ ./node_modules/react-native-performance/lib/module/index.js 11:52-99
+ @ ./src/libs/Performance.js
+ @ ./src/libs/actions/App.js
+ @ ./src/libs/Navigation/AppNavigator/AuthScreens.js 43:0-41 115:15-31 125:6-17 126:6-34
+ @ ./src/libs/Navigation/AppNavigator/index.js
+ @ ./src/libs/Navigation/NavigationRoot.js 10:0-42 58:38-50
+ @ ./src/Expensify.js 16:0-62 201:79-93
+ @ ./src/App.js 11:0-36 40:38-47
+ @ ./index.js 7:0-28 11:9-12
+
+WARNING in ./node_modules/react-native-svg/lib/module/ReactNativeSVG.web.js 8:22-24
+export 'createElement' (imported as 'cE') was not found in 'react-native' (possible exports: AccessibilityInfo, ActivityIndicator, Alert, Animated, AppRegistry, AppState, Appearance, BackHandler, Button, CheckBox, Clipboard, DeviceEventEmitter, DeviceInfo, Dimensions, DrawerLayoutAndroid, Easing, FlatList, I18nManager, Image, ImageBackground, InputAccessoryView, InteractionManager, Keyboard, KeyboardAvoidingView, LayoutAnimation, Linking, LogBox, Modal, NativeEventEmitter, NativeModules, PanResponder, PermissionsAndroid, Picker, PixelRatio, Platform, Pressable, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, Settings, Share, StatusBar, StyleSheet, Switch, Systrace, TVEventHandler, Text, TextInput, ToastAndroid, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, UIManager, Vibration, View, VirtualizedList, YellowBox, findNodeHandle, processColor, render, unmountComponentAtNode, unstable_createElement, useColorScheme, useLocaleContext, useWindowDimensions)
+ @ ./node_modules/react-native-svg/lib/module/index.js 1:0-33 1:0-33 2:0-43 2:0-43
+ @ ./src/components/ReportHeaderSkeletonView.js
+ @ ./src/pages/home/ReportScreen.js 44:0-81 257:109-133 274:54-78
+ @ ./src/libs/Navigation/AppNavigator/MainDrawerNavigator.js 27:0-60 157:21-33
+ @ ./src/libs/Navigation/AppNavigator/AuthScreens.js
+ @ ./src/libs/Navigation/AppNavigator/index.js
+ @ ./src/libs/Navigation/NavigationRoot.js 10:0-42 58:38-50
+ @ ./src/Expensify.js 16:0-62 201:79-93
+ @ ./src/App.js 11:0-36 40:38-47
+ @ ./index.js 7:0-28 11:9-12
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  51103eacf3bef7f35f0812db4ea611f7.js (1.3 MiB)
+  main-1f6d8f10775f294ae542.bundle.js (4.85 MiB)
+  vendors-703b07707fbd1948582d.bundle.js (17.5 MiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (22.4 MiB)
+      runtime-a84c5563f78b32d5cc01.bundle.js
+      vendors-703b07707fbd1948582d.bundle.js
+      main-1f6d8f10775f294ae542.bundle.js
+
+
+WARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+webpack 5.86.0 compiled with 6 warnings in 420064 ms
+(node:47281) [DEP_WEBPACK_STATS_WARNINGS_FILTER] DeprecationWarning: config.stats.warningsFilter is deprecated in favor of config.ignoreWarnings
+
+npm run desktop
+
+> new.expensify@1.3.23-6 desktop
+> scripts/set-pusher-suffix.sh && node desktop/start.js
+
+[Electron] Waiting for localhost:8080....<i> [webpack-dev-server] [HPM] Proxy created: /api  -> http://[::1]:9000
+[Renderer] <i> [webpack-dev-server] [HPM] Proxy created: /staging  -> http://[::1]:9000
+[Renderer] <i> [webpack-dev-server] [HPM] Proxy created: /chat-attachments  -> http://[::1]:9000
+[Renderer] <i> [webpack-dev-server] Project is running at:
+[Renderer] <i> [webpack-dev-server] Loopback: http://localhost:8080/
+[Renderer] <i> [webpack-dev-server] On Your Network (IPv4): http://10.40.50.105:8080/
+[Renderer] <i> [webpack-dev-server] On Your Network (IPv6): http://[fe80::1]:8080/
+[Renderer] <i> [webpack-dev-server] Content not from webpack is served from '/Users/peterzhang/dev/github/docker-wordpress/App/dist' directory
+[Renderer] <i> [webpack-dev-server] 404s will fallback to '/index.html'
+[Electron] .
+[Electron] Connected!
+[Main] desktop-main:
+[Main]   asset main.js 2.58 MiB [emitted] (name: main)
+[Main]   asset contextBridge.js 299 KiB [emitted] (name: contextBridge)
+[Main]   orphan modules 1.74 MiB [orphan] 248 modules
+[Main]   runtime modules 1.69 KiB 8 modules
+[Main]   modules by path ./node_modules/ 1.48 MiB 732 modules
+[Main]   modules by path ./src/ 316 KiB
+[Main]     modules by path ./src/libs/ 67 KiB 29 modules
+[Main]     modules by path ./src/languages/*.js 160 KiB 4 modules
+[Main]     modules by path ./src/*.js 88.2 KiB
+[Main]       ./src/CONFIG.js 4.8 KiB [built] [code generated]
+[Main]       + 2 modules
+[Main]     ./src/components/Alert/index.js 823 bytes [built] [code generated]
+[Main]   modules by path ./desktop/*.js 27.3 KiB
+[Main]     ./desktop/main.js 23.6 KiB [built] [code generated]
+[Main]     ./desktop/contextBridge.js 3.25 KiB [built] [code generated]
+[Main]     ./desktop/ELECTRON_EVENTS.js 474 bytes [built] [code generated]
+[Main]   + 10 modules
+[Main]   desktop-main (webpack 5.86.0) compiled successfully in 12354 ms
+[Electron] npm WARN exec The following package was not found and will be installed: electronmon
+[Electron] [electronmon] waiting for a change to restart it
+[Electron] 19:03:20.065 › CONFIG:  {
+[Electron]   APP_NAME: 'NewExpensify',
+[Electron]   AUTH_TOKEN_EXPIRATION_TIME: 5400000,
+[Electron]   ENVIRONMENT: 'development',
+[Electron]   EXPENSIFY: {
+[Electron]     EXPENSIFY_URL: 'https://www.expensify.com/',
+[Electron]     NEW_EXPENSIFY_URL: 'https://new.expensify.com/',
+[Electron]     DEFAULT_API_ROOT: 'https://www.expensify.com/',
+[Electron]     DEFAULT_SECURE_API_ROOT: 'https://secure.expensify.com/',
+[Electron]     STAGING_API_ROOT: 'https://staging.expensify.com/',
+[Electron]     STAGING_SECURE_API_ROOT: 'https://staging-secure.expensify.com/',
+[Electron]     PARTNER_NAME: 'chat-expensify-com',
+[Electron]     PARTNER_PASSWORD: 'e21965746fd75f82bb66',
+[Electron]     EXPENSIFY_CASH_REFERER: 'ecash',
+[Electron]     CONCIERGE_URL_PATHNAME: 'concierge/',
+[Electron]     DEVPORTAL_URL_PATHNAME: '_devportal/',
+[Electron]     CONCIERGE_URL: 'https://www.expensify.com/concierge/'
+[Electron]   },
+[Electron]   IS_IN_PRODUCTION: false,
+[Electron]   IS_IN_STAGING: false,
+[Electron]   IS_USING_LOCAL_WEB: false,
+[Electron]   PUSHER: { APP_KEY: '268df511a204fbb60884', SUFFIX: '', CLUSTER: 'mt1' },
+[Electron]   SITE_TITLE: 'New Expensify',
+[Electron]   FAVICON: { DEFAULT: '/favicon.png', UNREAD: '/favicon-unread.png' },
+[Electron]   CAPTURE_METRICS: false,
+[Electron]   ONYX_METRICS: false,
+[Electron]   DEV_PORT: '8080',
+[Electron]   E2E_TESTING: false,
+[Electron]   SEND_CRASH_REPORTS: false,
+[Electron]   IS_USING_WEB_PROXY: false
+[Electron] }
+[Renderer] <i> [webpack-dev-middleware] wait until bundle finished: /
+[Electron] [electronmon] renderer file change: doc/log.txt
+[Electron] 19:03:58.525 › (node:57875) UnhandledPromiseRejectionWarning: Error: ERR_ABORTED (-3) loading 'http://localhost:8080/'
+[Electron]     at rejectAndCleanup (node:electron/js2c/browser_init:2:77333)
+[Electron]     at EventEmitter.navigationListener (node:electron/js2c/browser_init:2:77639)
+[Electron]     at EventEmitter.emit (node:events:513:28)
+[Electron] (Use `Electron --trace-warnings ...` to show where the warning was created)
+[Electron] 19:03:58.528 › (node:57875) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[Electron] [electronmon] renderer file change: doc/log.txt
+[Renderer] <i> [webpack-dev-middleware] wait until bundle finished: /
+[Renderer] <i> [webpack-dev-middleware] wait until bundle finished: /
+[Renderer] [BABEL] Note: The code generator has deoptimised the styling of /Users/peterzhang/dev/github/docker-wordpress/App/assets/images/home-background--desktop.svg as it exceeds the max of 500KB.
+[Renderer] [BABEL] Note: The code generator has deoptimised the styling of undefined as it exceeds the max of 500KB.
+[Renderer] (node:57859) [DEP_WEBPACK_COMPILATION_ASSETS] DeprecationWarning: Compilation.assets will be frozen in future, all modifications are deprecated.
+[Renderer] BREAKING CHANGE: No more changes should happen to Compilation.assets after sealing the Compilation.
+[Renderer] 	Do changes to assets earlier, e. g. in Compilation.hooks.processAssets.
+[Renderer] 	Make sure to select an appropriate stage from Compilation.PROCESS_ASSETS_STAGE_*.
+[Renderer] (Use `node --trace-deprecation ...` to show where the warning was created)
+[Renderer] 
+[Renderer] ┌── time-analytics-webpack-plugin
+[Renderer] │ Webpack compile takes 169017.0504 ms
+[Renderer] ├── Plugins
+[Renderer] │ Plugin WebpackFontPreloadPlugin takes 312.0590 ms
+[Renderer] │ Plugin CopyPlugin takes 187.4999 ms
+[Renderer] │ Plugin CleanWebpackPlugin takes 161.2589 ms
+[Renderer] │ Plugin IgnorePlugin takes 44.8000 ms
+[Renderer] │ Plugin HtmlWebpackPlugin takes 16.8741 ms
+[Renderer] │ Plugin EnvironmentPlugin takes 12.1694 ms
+[Renderer] │ Plugin DefinePlugin takes 2.2203 ms
+[Renderer] │ Plugin ProvidePlugin takes 0.2671 ms
+[Renderer] │ All plugins take 737.1487 ms
+[Renderer] ├── Loaders
+[Renderer] │ Loader @svgr/webpack takes 1393265.5674 ms
+[Renderer] │ Loader babel-loader takes 78774.2961 ms
+[Renderer] │ Loader style-loader takes 8.8477 ms
+[Renderer] │ All loaders take 1472048.7112 ms
+[Renderer] 
+[Renderer] (node:57859) [DEP_WEBPACK_STATS_WARNINGS_FILTER] DeprecationWarning: config.stats.warningsFilter is deprecated in favor of config.ignoreWarnings
+[Renderer] assets by path cmaps/*.bcmap 1.11 MiB 168 assets
+[Renderer] assets by path fonts/ 623 KiB
+[Renderer]   assets by path fonts/*.woff 327 KiB 8 assets
+[Renderer]   assets by path fonts/*.woff2 296 KiB 8 assets
+[Renderer] assets by info 91.2 MiB [immutable]
+[Renderer]   assets by path *.png 223 KiB 5 assets
+[Renderer]   assets by path *.js 91 MiB 4 assets
+[Renderer] assets by path css/*.css 8.95 KiB
+[Renderer]   asset css/AnnotationLayer.css 6.36 KiB [emitted] [from: node_modules/react-pdf/dist/esm/Page/AnnotationLayer.css] [copied]
+[Renderer]   + 2 assets
+[Renderer] assets by path .well-known/ 2.13 KiB
+[Renderer]   asset .well-known/apple-app-site-association 1.84 KiB [emitted] [from: .well-known/apple-app-site-association] [copied]
+[Renderer]   asset .well-known/assetlinks.json 303 bytes [emitted] [from: .well-known/assetlinks.json] [copied]
+[Renderer] + 6 assets
+[Renderer] Entrypoint main 88.3 MiB (2.96 MiB) = runtime-284c17ad21149e7b5607.bundle.js 44.6 KiB vendors-3c99366457d33a710933.bundle.js 67 MiB main-104a37c4fa5931dba2cc.bundle.js 21.3 MiB 6 auxiliary assets
+[Renderer] orphan modules 116 KiB [orphan] 58 modules
+[Renderer] runtime modules 29 KiB 17 modules
+[Renderer] modules by path ./node_modules/ 26.1 MiB
+[Renderer]   javascript modules 22.6 MiB 2896 modules
+[Renderer]   json modules 802 KiB 11 modules
+[Renderer]   asset modules 2.75 MiB 6 modules
+[Renderer] modules by path ./src/ 3.75 MiB 800 modules
+[Renderer] modules by path ./assets/ 3.64 MiB (javascript) 223 KiB (asset)
+[Renderer]   javascript modules 2.44 MiB 257 modules
+[Renderer]   asset modules 4.21 KiB (javascript) 223 KiB (asset) 6 modules
+[Renderer]   json modules 1.19 MiB 3 modules
+[Renderer] modules by path ./*.js 1.11 KiB
+[Renderer]   ./index.js 338 bytes [built] [code generated]
+[Renderer]   ./wdyr.js 801 bytes [built] [code generated]
+[Renderer] + 10 modules
+[Renderer] 
+[Renderer] LOG from webpack.FileSystemInfo
+[Renderer] <w> Managed item /Users/peterzhang isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
+[Renderer] + 12 hidden lines
+[Renderer] 
+[Renderer] WARNING in ./node_modules/react-native-performance/lib/module/NativeRNPerformanceManager.js 2:15-38
+[Renderer] export 'TurboModuleRegistry' (imported as 'TurboModuleRegistry') was not found in 'react-native' (possible exports: AccessibilityInfo, ActivityIndicator, Alert, Animated, AppRegistry, AppState, Appearance, BackHandler, Button, CheckBox, Clipboard, DeviceEventEmitter, DeviceInfo, Dimensions, DrawerLayoutAndroid, Easing, FlatList, I18nManager, Image, ImageBackground, InputAccessoryView, InteractionManager, Keyboard, KeyboardAvoidingView, LayoutAnimation, Linking, LogBox, Modal, NativeEventEmitter, NativeModules, PanResponder, PermissionsAndroid, Picker, PixelRatio, Platform, Pressable, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, Settings, Share, StatusBar, StyleSheet, Switch, Systrace, TVEventHandler, Text, TextInput, ToastAndroid, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, UIManager, Vibration, View, VirtualizedList, YellowBox, findNodeHandle, processColor, render, unmountComponentAtNode, unstable_createElement, useColorScheme, useLocaleContext, useWindowDimensions)
+[Renderer]  @ ./node_modules/react-native-performance/lib/module/index.js 11:52-99
+[Renderer]  @ ./src/libs/Performance.js 58:19-54
+[Renderer]  @ ./src/libs/actions/App.js 12:0-41 118:2-21 119:2-23
+[Renderer]  @ ./src/libs/Navigation/AppNavigator/AuthScreens.js 43:0-41 115:15-31 125:6-17 126:6-34
+[Renderer]  @ ./src/libs/Navigation/AppNavigator/index.js 9:22-57
+[Renderer]  @ ./src/libs/Navigation/NavigationRoot.js 10:0-42 58:38-50
+[Renderer]  @ ./src/Expensify.js 16:0-62 201:79-93
+[Renderer]  @ ./src/App.js 11:0-36 40:38-47
+[Renderer]  @ ./index.js 7:0-28 11:9-12
+[Renderer] 
+[Renderer] WARNING in ./node_modules/react-native-svg/lib/module/ReactNativeSVG.web.js 8:22-24
+[Renderer] export 'createElement' (imported as 'cE') was not found in 'react-native' (possible exports: AccessibilityInfo, ActivityIndicator, Alert, Animated, AppRegistry, AppState, Appearance, BackHandler, Button, CheckBox, Clipboard, DeviceEventEmitter, DeviceInfo, Dimensions, DrawerLayoutAndroid, Easing, FlatList, I18nManager, Image, ImageBackground, InputAccessoryView, InteractionManager, Keyboard, KeyboardAvoidingView, LayoutAnimation, Linking, LogBox, Modal, NativeEventEmitter, NativeModules, PanResponder, PermissionsAndroid, Picker, PixelRatio, Platform, Pressable, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, Settings, Share, StatusBar, StyleSheet, Switch, Systrace, TVEventHandler, Text, TextInput, ToastAndroid, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, UIManager, Vibration, View, VirtualizedList, YellowBox, findNodeHandle, processColor, render, unmountComponentAtNode, unstable_createElement, useColorScheme, useLocaleContext, useWindowDimensions)
+[Renderer]  @ ./node_modules/react-native-svg/lib/module/index.js 1:0-33 1:0-33 2:0-43 2:0-43
+[Renderer]  @ ./src/components/ReportHeaderSkeletonView.js 7:0-48 38:38-44 42:39-43 47:39-43
+[Renderer]  @ ./src/pages/home/ReportScreen.js 44:0-81 257:109-133 274:54-78
+[Renderer]  @ ./src/libs/Navigation/AppNavigator/MainDrawerNavigator.js 27:0-60 157:21-33
+[Renderer]  @ ./src/libs/Navigation/AppNavigator/AuthScreens.js 217:36-79
+[Renderer]  @ ./src/libs/Navigation/AppNavigator/index.js 9:22-57
+[Renderer]  @ ./src/libs/Navigation/NavigationRoot.js 10:0-42 58:38-50
+[Renderer]  @ ./src/Expensify.js 16:0-62 201:79-93
+[Renderer]  @ ./src/App.js 11:0-36 40:38-47
+[Renderer]  @ ./index.js 7:0-28 11:9-12
+[Renderer] 
+[Renderer] WARNING in ./src/libs/actions/Device/getDeviceInfo/getBaseInfo.js 4:17-24
+[Renderer] Should not import the named export 'version' (imported as 'version') from default-exporting module (only default export is available soon)
+[Renderer]  @ ./src/libs/actions/Device/getDeviceInfo/index.desktop.js 4:0-40 7:55-66
+[Renderer]  @ ./src/libs/actions/Device/index.js 8:0-44 54:68-81
+[Renderer]  @ ./src/setup/index.js 8:0-49 40:2-20
+[Renderer]  @ ./index.js 9:0-45 13:0-18
+[Renderer] 
+[Renderer] webpack 5.86.0 compiled with 3 warnings in 169044 ms
+[Renderer] <w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Managed item /Users/peterzhang isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
